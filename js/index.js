@@ -10,7 +10,7 @@
         $('#result').html(res);
     })
 })
-
+*/
 $(function() {
     $('#btn').click(function(e) {
         e.preventDefault();
@@ -29,7 +29,7 @@ $(function() {
 
     })
 })
-*/
+/*
 $(function() {
     $('#btn').click(function(e) {
         e.preventDefault();
@@ -50,6 +50,30 @@ $(function() {
 
     })
 })
+*/
+/*
+$(function() {
+    $('#btn').click(function(e) {
+        e.preventDefault();
+        var num = $('#number').val();
+
+        function fib(num) {
+            var a = 1,
+                b = 1,
+                i = 3;
+                
+            for (var i = 3; i <= num; i++) 
+            while (i <= num)
+            {
+                var c = a + b;
+                a = b;
+                b = c;
+            }
+            i++;
+        }
+        var res = fib(num);
+        $('#result').html(res);
+*/
 /*function fib(n) {
   var a = 1,
     b = 1;
